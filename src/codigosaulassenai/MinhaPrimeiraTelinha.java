@@ -99,12 +99,11 @@ public class MinhaPrimeiraTelinha extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldNomeActionPerformed
 
     private void jButtonSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSalvarActionPerformed
-        JOptionPane.showMessageDialog(null, "O botão salvar foi clicado!!!");
+        JOptionPane.showMessageDialog(null, "Informações salvas com sucesso!");
     }//GEN-LAST:event_jButtonSalvarActionPerformed
 
     private void jButtonPreencherActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPreencherActionPerformed
-        jTextFieldNome.setText("José Augusto");
-        jTextFieldEndereco.setText("Rua abcd!!!");
+        
     }//GEN-LAST:event_jButtonPreencherActionPerformed
 
     /**

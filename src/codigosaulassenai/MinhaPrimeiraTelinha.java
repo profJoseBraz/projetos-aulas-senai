@@ -99,7 +99,14 @@ public class MinhaPrimeiraTelinha extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldNomeActionPerformed
 
     private void jButtonSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSalvarActionPerformed
-        JOptionPane.showMessageDialog(null, "Informações salvas com sucesso!");
+        
+        if (jTextFieldNome.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "O campo Nome não pode ser vazio!");
+        }else if(jTextFieldEndereco.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "O campo Endereço não pode ser vazio!");
+        }else{
+            JOptionPane.showMessageDialog(null, "Informações salvas com sucesso!");
+        }
     }//GEN-LAST:event_jButtonSalvarActionPerformed
 
     private void jButtonPreencherActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPreencherActionPerformed
